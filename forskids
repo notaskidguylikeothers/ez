@@ -5,28 +5,12 @@ workspace.Wins.DesertStage.Name = "lol1";
 workspace.Wins.DesertStage.Name = "lol2";
 workspace.Wins.DesertStage.Name = "lol3";
 workspace.Wins.DesertStage.Name = "lol4";
-workspace.Wins.Stage7.Name = "lol21";
-workspace.Wins.Stage7.Name = "lol22";
-workspace.Wins.Stage7.Name = "lol32";
-workspace.Wins.Stage7.Name = "lol42";
-workspace.Wins.Stage8.Name = "lol212";
-workspace.Wins.Stage8.Name = "lol222";
-workspace.Wins.Stage8.Name = "lol322";
-workspace.Wins.Stage8.Name = "lol422";
 game:GetService("RunService").Heartbeat:Connect(function()
 game:GetService("ReplicatedStorage").RebirthEvent:FireServer()
 workspace.Wins.lol1.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(math.random(-1, 1), math.random(-1, 1), math.random(-1, 1))
 workspace.Wins.lol2.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(math.random(-1, 1), math.random(-1, 1), math.random(-1, 1))
 workspace.Wins.lol3.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(math.random(-1, 1), math.random(-1, 1), math.random(-1, 1))
 workspace.Wins.lol4.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(math.random(-1, 1), math.random(-1, 1), math.random(-1, 1))
-workspace.Wins.lol21.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(math.random(-1, 1), math.random(-1, 1), math.random(-1, 1))
-workspace.Wins.lol22.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(math.random(-1, 1), math.random(-1, 1), math.random(-1, 1))
-workspace.Wins.lol32.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(math.random(-1, 1), math.random(-1, 1), math.random(-1, 1))
-workspace.Wins.lol42.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(math.random(-1, 1), math.random(-1, 1), math.random(-1, 1))
-workspace.Wins.lol212.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(math.random(-1, 1), math.random(-1, 1), math.random(-1, 1))
-workspace.Wins.lol222.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(math.random(-1, 1), math.random(-1, 1), math.random(-1, 1))
-workspace.Wins.lol322.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(math.random(-1, 1), math.random(-1, 1), math.random(-1, 1))
-workspace.Wins.lol422.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(math.random(-1, 1), math.random(-1, 1), math.random(-1, 1))
 end)
 while true do wait()
 game:GetService("RunService"):Set3dRenderingEnabled(false) end
