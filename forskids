@@ -1,10 +1,10 @@
 repeat wait() until game:IsLoaded()
 queue_on_teleport([[loadstring(game:HttpGet("https://raw.githubusercontent.com/lol-312/helloitsme/main/123",true))()]])
 task.wait(2)
-workspace.Wins.DesertStage.Name = "lol1";
-workspace.Wins.DesertStage.Name = "lol2";
-workspace.Wins.DesertStage.Name = "lol3";
-workspace.Wins.DesertStage.Name = "lol4";
+workspace.Wins.SteampunkStage.Name = "lol1";
+workspace.Wins.SteampunkStage.Name = "lol2";
+workspace.Wins.SteampunkStage.Name = "lol3";
+workspace.Wins.SteampunkStage.Name = "lol4";
 game:GetService("RunService").Heartbeat:Connect(function()
 game:GetService("ReplicatedStorage").RebirthEvent:FireServer()
 workspace.Wins.lol1.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(math.random(-1, 1), math.random(-1, 1), math.random(-1, 1))
@@ -15,5 +15,5 @@ end)
 for i,v in pairs(getconnections(game:GetService("Players").LocalPlayer.Idled)) do
    v:Disable()
 end
-while true do wait()
-game:GetService("RunService"):Set3dRenderingEnabled(false) end
+--while true do wait()
+--game:GetService("RunService"):Set3dRenderingEnabled(false) end
